@@ -5,6 +5,9 @@
     "version": "1.1.0",
     "default_locale": "en",
     "permissions": ["storage", "activeTab", "scripting", "contextMenus", "windows", "notifications"],
+    "host_permissions": [
+        "https://tinyurl.com/*"
+    ],
     "commands": {
       "_execute_action": {
         "suggested_key": {
@@ -14,11 +17,17 @@
         "description": "Open Linking popup"
       }
     },
+    "icons": {
+      "128": "icon128.png"
+    },
     "background": {
       "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon128.png"
+      }
     },
     "content_scripts": [
       {

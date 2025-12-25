@@ -364,5 +364,23 @@
   },
   "items_in_folder": {
     "message": "{count}개 항목"
+  },
+  "contextmenu_guide_title": {
+    "message": "우클릭 메뉴 사용법"
+  },
+  "contextmenu_guide_desc": {
+    "message": "웹 페이지에서 우클릭하여 Linking Workspace 기능을 빠르게 사용할 수 있습니다."
+  },
+  "contextmenu_highlight_title": {
+    "message": "하이라이트 추가"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. 웹 페이지에서 텍스트를 선택합니다\n2. 선택한 텍스트에서 우클릭합니다\n3. \"Linking Workspace\" → \"하이라이트\"를 선택합니다\n선택한 텍스트가 자동으로 하이라이트로 저장됩니다."
+  },
+  "contextmenu_readlater_title": {
+    "message": "나중에 보기에 추가"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. 웹 페이지에서 아무 곳이나 우클릭합니다\n2. \"Linking Workspace\" → \"나중에 보기\"를 선택합니다\n3. 나타나는 팝업에서 페이지 이름을 입력하고 저장합니다\n현재 페이지가 나중에 보기 목록에 추가됩니다."
   }
 }

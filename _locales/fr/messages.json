@@ -265,5 +265,23 @@
   },
   "clear_all_highlights_confirm": {
     "message": "Êtes-vous sûr de vouloir supprimer tous les {count} surlignage(s) ?"
+  },
+  "contextmenu_guide_title": {
+    "message": "Guide du menu contextuel"
+  },
+  "contextmenu_guide_desc": {
+    "message": "Faites un clic droit sur les pages web pour utiliser rapidement les fonctionnalités de Linking Workspace."
+  },
+  "contextmenu_highlight_title": {
+    "message": "Ajouter un surlignage"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. Sélectionnez du texte sur une page web\n2. Faites un clic droit sur le texte sélectionné\n3. Choisissez « Linking Workspace » → « Surlignage »\nLe texte sélectionné sera automatiquement enregistré comme surlignage."
+  },
+  "contextmenu_readlater_title": {
+    "message": "Ajouter à Lire plus tard"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. Faites un clic droit n'importe où sur une page web\n2. Choisissez « Linking Workspace » → « Lire plus tard »\n3. Entrez un nom pour la page dans la fenêtre popup et enregistrez\nLa page actuelle sera ajoutée à votre liste Lire plus tard."
   }
 }

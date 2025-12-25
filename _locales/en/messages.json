@@ -361,5 +361,23 @@
   },
   "items_in_folder": {
     "message": "{count} items"
+  },
+  "contextmenu_guide_title": {
+    "message": "Context Menu Guide"
+  },
+  "contextmenu_guide_desc": {
+    "message": "Right-click on web pages to quickly use Linking Workspace features."
+  },
+  "contextmenu_highlight_title": {
+    "message": "Add Highlight"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. Select text on a web page\n2. Right-click on the selected text\n3. Choose \"Linking Workspace\" → \"Highlight\"\nThe selected text will be automatically saved as a highlight."
+  },
+  "contextmenu_readlater_title": {
+    "message": "Add to Read Later"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. Right-click anywhere on a web page\n2. Choose \"Linking Workspace\" → \"Read Later\"\n3. Enter a name for the page in the popup and save\nThe current page will be added to your Read Later list."
   }
 }

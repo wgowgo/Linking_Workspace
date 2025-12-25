@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 보호 정책 - Linking Workspace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .contact {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            color: #007bff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="#korean">한국어</a>
+            <a href="#english">English</a>
+        </div>
+
+        <div id="korean">
+            <h1>개인정보 보호 정책</h1>
+            <p class="last-updated">마지막 업데이트: 2024년 1월</p>
+
+            <p>Linking Workspace는 사용자의 개인정보를 수집하거나 외부 서버로 전송하지 않습니다. 이 정책은 Linking Workspace Chrome 확장 프로그램의 개인정보 처리 방침을 설명합니다.</p>
+
+            <h2>1. 데이터 저장</h2>
+            <p>Linking Workspace는 모든 데이터를 사용자의 브라우저 로컬 저장소에만 저장합니다:</p>
+            <ul>
+                <li><strong>노트</strong>: 사용자가 작성한 모든 노트는 브라우저 로컬 저장소에 저장됩니다.</li>
+                <li><strong>할 일</strong>: 작업 목록 및 완료 상태가 로컬에 저장됩니다.</li>
+                <li><strong>하이라이트</strong>: 웹 페이지에서 저장한 하이라이트 텍스트가 로컬에 저장됩니다.</li>
+                <li><strong>나중에 보기</strong>: 저장한 URL 및 페이지 이름이 로컬에 저장됩니다.</li>
+                <li><strong>설정</strong>: 언어, 테마, 단축키 등 모든 설정이 로컬에 저장됩니다.</li>
+            </ul>
+            <p><strong>중요:</strong> 모든 데이터는 사용자의 기기에만 저장되며, 외부 서버나 클라우드로 전송되지 않습니다. 데이터는 Chrome의 로컬 저장소(최대 10MB)에 저장됩니다.</p>
+
+            <h2>2. 외부 서비스 사용</h2>
+            <p>Linking Workspace는 다음과 같은 외부 서비스를 사용합니다:</p>
+            <ul>
+                <li><strong>TinyURL API</strong>: URL 단축 기능 사용 시, TinyURL 서비스(<a href="https://tinyurl.com" target="_blank">https://tinyurl.com</a>)를 사용합니다. 사용자가 명시적으로 "URL 단축" 버튼을 클릭한 경우에만 해당 URL이 TinyURL 서비스로 전송됩니다. TinyURL의 개인정보 보호 정책은 해당 서비스 웹사이트를 참조하시기 바랍니다.</li>
+            </ul>
+
+            <h2>3. 권한 사용</h2>
+            <p>Linking Workspace는 다음 권한을 사용합니다. 각 권한은 확장 프로그램 기능에 필수적입니다:</p>
+            <ul>
+                <li><strong>storage</strong>: 로컬 데이터 저장 (노트, 할 일, 하이라이트, 북마크 등)</li>
+                <li><strong>activeTab</strong>: 현재 탭의 콘텐츠에 접근 (하이라이트 기능 및 페이지 정보 수집)</li>
+                <li><strong>scripting</strong>: 콘텐츠 스크립트 주입 (하이라이트, 광고 차단 기능)</li>
+                <li><strong>contextMenus</strong>: 우클릭 메뉴 제공 (하이라이트, 나중에 보기 기능)</li>
+                <li><strong>windows</strong>: 팝업 윈도우 생성 (나중에 보기 추가 시)</li>
+                <li><strong>notifications</strong>: 타이머 알림 (포모도로 타이머 완료 시)</li>
+                <li><strong>host_permissions (tinyurl.com)</strong>: URL 단축 기능 (사용자 요청 시에만 사용)</li>
+            </ul>
+
+            <h2>4. 데이터 수집 및 공유</h2>
+            <p>Linking Workspace는 사용자의 개인정보를 수집하거나 제3자와 공유하지 않습니다. 모든 데이터는 사용자의 기기에서만 처리되고 저장됩니다.</p>
+
+            <h2>5. 데이터 삭제</h2>
+            <p>사용자는 언제든지 확장 프로그램을 삭제하여 모든 데이터를 제거할 수 있습니다. 확장 프로그램 삭제 시 Chrome의 로컬 저장소에서 모든 데이터가 함께 삭제됩니다.</p>
+
+            <h2>6. 보안</h2>
+            <p>모든 데이터는 브라우저의 표준 보안 기능을 통해 보호됩니다. 데이터는 암호화되지 않지만, Chrome의 로컬 저장소에 저장되어 다른 웹사이트나 확장 프로그램에서 접근할 수 없습니다.</p>
+
+            <h2>7. 정책 변경</h2>
+            <p>이 개인정보 보호 정책은 변경될 수 있습니다. 중요한 변경사항이 있을 경우, 확장 프로그램 업데이트를 통해 알려드리겠습니다.</p>
+
+            <div class="contact">
+                <h2>8. 문의</h2>
+                <p>개인정보 보호 정책에 대한 질문이나 문의사항이 있으시면 다음 이메일로 연락해 주세요:</p>
+                <p><strong>이메일:</strong> <a href="mailto:wgowgosy@gmail.com">wgowgosy@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="english" style="display: none;">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: January 2024</p>
+
+            <p>Linking Workspace does not collect or transmit user personal information to external servers. This policy explains how the Linking Workspace Chrome extension handles personal information.</p>
+
+            <h2>1. Data Storage</h2>
+            <p>Linking Workspace stores all data only in the user's browser local storage:</p>
+            <ul>
+                <li><strong>Notes</strong>: All notes written by users are stored in browser local storage.</li>
+                <li><strong>Tasks</strong>: Task lists and completion status are stored locally.</li>
+                <li><strong>Highlights</strong>: Highlighted text saved from web pages is stored locally.</li>
+                <li><strong>Read Later</strong>: Saved URLs and page names are stored locally.</li>
+                <li><strong>Settings</strong>: All settings including language, theme, and shortcuts are stored locally.</li>
+            </ul>
+            <p><strong>Important:</strong> All data is stored only on the user's device and is not transmitted to external servers or cloud services. Data is stored in Chrome's local storage (up to 10MB).</p>
+
+            <h2>2. External Services</h2>
+            <p>Linking Workspace uses the following external service:</p>
+            <ul>
+                <li><strong>TinyURL API</strong>: When using the URL shortening feature, the TinyURL service (<a href="https://tinyurl.com" target="_blank">https://tinyurl.com</a>) is used. URLs are sent to the TinyURL service only when the user explicitly clicks the "Shorten URL" button. Please refer to TinyURL's privacy policy on their website.</li>
+            </ul>
+
+            <h2>3. Permission Usage</h2>
+            <p>Linking Workspace uses the following permissions. Each permission is essential for the extension's functionality:</p>
+            <ul>
+                <li><strong>storage</strong>: Local data storage (notes, tasks, highlights, bookmarks, etc.)</li>
+                <li><strong>activeTab</strong>: Access to current tab content (highlight feature and page information collection)</li>
+                <li><strong>scripting</strong>: Content script injection (highlight, ad blocking features)</li>
+                <li><strong>contextMenus</strong>: Right-click menu (highlight, read later features)</li>
+                <li><strong>windows</strong>: Popup window creation (when adding to read later)</li>
+                <li><strong>notifications</strong>: Timer notifications (when Pomodoro timer completes)</li>
+                <li><strong>host_permissions (tinyurl.com)</strong>: URL shortening feature (used only upon user request)</li>
+            </ul>
+
+            <h2>4. Data Collection and Sharing</h2>
+            <p>Linking Workspace does not collect or share user personal information with third parties. All data is processed and stored only on the user's device.</p>
+
+            <h2>5. Data Deletion</h2>
+            <p>Users can delete all data at any time by uninstalling the extension. When the extension is uninstalled, all data is removed from Chrome's local storage.</p>
+
+            <h2>6. Security</h2>
+            <p>All data is protected through the browser's standard security features. Data is not encrypted but is stored in Chrome's local storage, making it inaccessible to other websites or extensions.</p>
+
+            <h2>7. Policy Changes</h2>
+            <p>This privacy policy may be updated. If there are significant changes, we will notify users through extension updates.</p>
+
+            <div class="contact">
+                <h2>8. Contact</h2>
+                <p>If you have any questions or concerns about this privacy policy, please contact us at:</p>
+                <p><strong>Email:</strong> <a href="mailto:wgowgosy@gmail.com">wgowgosy@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Language switch functionality
+        document.querySelectorAll('.lang-switch a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = this.getAttribute('href').substring(1);
+                
+                if (target === 'korean') {
+                    document.getElementById('korean').style.display = 'block';
+                    document.getElementById('english').style.display = 'none';
+                } else if (target === 'english') {
+                    document.getElementById('korean').style.display = 'none';
+                    document.getElementById('english').style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

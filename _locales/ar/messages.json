@@ -265,5 +265,23 @@
   },
   "clear_all_highlights_confirm": {
     "message": "هل أنت متأكد أنك تريد حذف جميع {count} التمييزات؟"
+  },
+  "contextmenu_guide_title": {
+    "message": "دليل القائمة السياقية"
+  },
+  "contextmenu_guide_desc": {
+    "message": "انقر بزر الماوس الأيمن على صفحات الويب لاستخدام ميزات Linking Workspace بسرعة."
+  },
+  "contextmenu_highlight_title": {
+    "message": "إضافة تمييز"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. حدد النص في صفحة الويب\n2. انقر بزر الماوس الأيمن على النص المحدد\n3. اختر \"Linking Workspace\" → \"تمييز\"\nسيتم حفظ النص المحدد تلقائيًا كتمييز."
+  },
+  "contextmenu_readlater_title": {
+    "message": "إضافة إلى القراءة لاحقًا"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. انقر بزر الماوس الأيمن في أي مكان على صفحة الويب\n2. اختر \"Linking Workspace\" → \"القراءة لاحقًا\"\n3. أدخل اسمًا للصفحة في النافذة المنبثقة واحفظ\nسيتم إضافة الصفحة الحالية إلى قائمة القراءة لاحقًا."
   }
 }

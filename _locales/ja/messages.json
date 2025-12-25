@@ -265,5 +265,23 @@
   },
   "clear_all_highlights_confirm": {
     "message": "すべてのハイライト {count} 件を削除してもよろしいですか？"
+  },
+  "contextmenu_guide_title": {
+    "message": "コンテキストメニューの使い方"
+  },
+  "contextmenu_guide_desc": {
+    "message": "ウェブページで右クリックして、Linking Workspaceの機能を素早く使用できます。"
+  },
+  "contextmenu_highlight_title": {
+    "message": "ハイライトを追加"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. ウェブページでテキストを選択します\n2. 選択したテキストを右クリックします\n3. 「Linking Workspace」→「ハイライト」を選択します\n選択したテキストが自動的にハイライトとして保存されます。"
+  },
+  "contextmenu_readlater_title": {
+    "message": "後で読むに追加"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. ウェブページの任意の場所で右クリックします\n2. 「Linking Workspace」→「後で読む」を選択します\n3. 表示されるポップアップでページ名を入力して保存します\n現在のページが後で読むリストに追加されます。"
   }
 }

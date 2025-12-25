@@ -265,5 +265,23 @@
   },
   "clear_all_highlights_confirm": {
     "message": "您确定要删除所有 {count} 个高亮吗？"
+  },
+  "contextmenu_guide_title": {
+    "message": "右键菜单使用指南"
+  },
+  "contextmenu_guide_desc": {
+    "message": "在网页上右键点击可快速使用 Linking Workspace 功能。"
+  },
+  "contextmenu_highlight_title": {
+    "message": "添加高亮"
+  },
+  "contextmenu_highlight_desc": {
+    "message": "1. 在网页上选择文本\n2. 右键点击选中的文本\n3. 选择「Linking Workspace」→「高亮」\n选中的文本将自动保存为高亮。"
+  },
+  "contextmenu_readlater_title": {
+    "message": "添加到稍后阅读"
+  },
+  "contextmenu_readlater_desc": {
+    "message": "1. 在网页任意位置右键点击\n2. 选择「Linking Workspace」→「稍后阅读」\n3. 在弹出的窗口中输入页面名称并保存\n当前页面将被添加到稍后阅读列表。"
   }
 }
