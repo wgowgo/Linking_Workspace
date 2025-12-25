@@ -1,0 +1,269 @@
+{
+  "read": {
+    "message": "読む"
+  },
+  "notes": {
+    "message": "ノート"
+  },
+  "tasks": {
+    "message": "タスク"
+  },
+  "links": {
+    "message": "リンク"
+  },
+  "toggle_reader": {
+    "message": "リーダーモード"
+  },
+  "highlight": {
+    "message": "ハイライト"
+  },
+  "linking_workspace": {
+    "message": "Linking Workspace"
+  },
+  "contextmenu_readlater": {
+    "message": "後で読む - Linking"
+  },
+  "add_task": {
+    "message": "タスク追加"
+  },
+  "task_placeholder": {
+    "message": "新しいタスク"
+  },
+  "start_timer": {
+    "message": "ポモドーロ開始"
+  },
+  "clean_copy": {
+    "message": "URLを整理してコピー"
+  },
+  "remove_ads": {
+    "message": "広告を削除"
+  },
+  "ad_blocker": {
+    "message": "広告ブロッカー"
+  },
+  "ad_blocker_desc": {
+    "message": "ページの広告と不要な要素を削除します"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "brand_sub": {
+    "message": "あなたの手の中の小さなメモ帳"
+  },
+  "search_placeholder": {
+    "message": "ノート/タスク/ハイライトを検索…"
+  },
+  "nav_notes": {
+    "message": "メモ"
+  },
+  "nav_tasks": {
+    "message": "タスク"
+  },
+  "nav_highlights": {
+    "message": "ハイライト"
+  },
+  "nav_readlater": {
+    "message": "後で読む"
+  },
+  "nav_tools": {
+    "message": "ツール"
+  },
+  "hint_footer": {
+    "message": "ヒント: 検索ですぐ移動できます。"
+  },
+  "new_page": {
+    "message": "新しいページ"
+  },
+  "page_title_placeholder": {
+    "message": "タイトル"
+  },
+  "page_content_placeholder": {
+    "message": "ここに書いてください…"
+  },
+  "delete_page": {
+    "message": "ページ削除"
+  },
+  "clear_done": {
+    "message": "完了を整理"
+  },
+  "highlight_search_placeholder": {
+    "message": "ハイライト検索…"
+  },
+  "clear_all": {
+    "message": "すべて削除"
+  },
+  "reader_tools": {
+    "message": "リーダー"
+  },
+  "reader_font": {
+    "message": "フォント"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "font_sans": {
+    "message": "Sans-serif"
+  },
+  "font_mono": {
+    "message": "Monospace"
+  },
+  "reader_hint": {
+    "message": "ページ上のテキストを選択してからハイライトを押してください。"
+  },
+  "clean_url": {
+    "message": "整理済みURL"
+  },
+  "shorten_url": {
+    "message": "短縮URL"
+  },
+  "save_page_as_note": {
+    "message": "ページ保存"
+  },
+  "add_readlater": {
+    "message": "後で読むに追加"
+  },
+  "pomodoro": {
+    "message": "ポモドーロ"
+  },
+  "start": {
+    "message": "開始"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "reset": {
+    "message": "リセット"
+  },
+  "search_results": {
+    "message": "検索結果"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "open": {
+    "message": "開く"
+  },
+  "status_ready": {
+    "message": "準備OK"
+  },
+  "status_focus": {
+    "message": "集中中…"
+  },
+  "status_saving": {
+    "message": "保存中…"
+  },
+  "status_saved": {
+    "message": "保存済み"
+  },
+  "toast_restricted": {
+    "message": "このページでは利用できません。"
+  },
+  "toast_inject_failed": {
+    "message": "このページでは実行できません。"
+  },
+  "toast_new_page": {
+    "message": "新しいページを作成"
+  },
+  "toast_last_page": {
+    "message": "最後のページは削除できません。"
+  },
+  "toast_deleted": {
+    "message": "削除しました"
+  },
+  "toast_cleared_done": {
+    "message": "{count}件を整理"
+  },
+  "toast_cleared_all": {
+    "message": "すべて削除しました"
+  },
+  "toast_reader_toggled": {
+    "message": "リーダーを切り替えました"
+  },
+  "toast_highlight_sent": {
+    "message": "ハイライトしました"
+  },
+  "toast_copy_restricted": {
+    "message": "このページのURLはコピーできません。"
+  },
+  "toast_copy_failed": {
+    "message": "コピーに失敗しました"
+  },
+  "toast_clean_copied": {
+    "message": "整理済みURLをコピーしました"
+  },
+  "toast_save_page_restricted": {
+    "message": "このページは保存できません。"
+  },
+  "toast_page_info_failed": {
+    "message": "ページ情報を取得できませんでした。"
+  },
+  "toast_saved_as_note": {
+    "message": "ページをノートに保存"
+  },
+  "toast_pomodoro_done": {
+    "message": "ポモドーロ完了！"
+  },
+  "toast_readlater_added": {
+    "message": "後で読むに追加しました"
+  },
+  "toast_short_url_copied": {
+    "message": "短縮URLをコピーしました"
+  },
+  "toast_short_url_failed": {
+    "message": "短縮URL生成に失敗しました"
+  },
+  "clean_url_button": {
+    "message": "URLを整理"
+  },
+  "save_url": {
+    "message": "保存"
+  },
+  "url_input_placeholder": {
+    "message": "URLを入力"
+  },
+  "ad_blocker_active": {
+    "message": "グローバル広告ブロック有効"
+  },
+  "ad_blocker_inactive": {
+    "message": "グローバル広告ブロック無効"
+  },
+  "set_timer": {
+    "message": "時間設定"
+  },
+  "timer_hours": {
+    "message": "時"
+  },
+  "timer_minutes": {
+    "message": "分"
+  },
+  "timer_seconds": {
+    "message": "秒"
+  },
+  "pomodoro_time_up": {
+    "message": "設定された時間が終了しました"
+  },
+  "storage_usage": {
+    "message": "ストレージ使用量"
+  },
+  "storage_limit": {
+    "message": "最大10MBまで保存可能です"
+  },
+  "delete_folder": {
+    "message": "フォルダを削除"
+  },
+  "delete_folder_confirm": {
+    "message": "このフォルダを削除してもよろしいですか？"
+  },
+  "delete_page_confirm": {
+    "message": "このページを削除してもよろしいですか？"
+  },
+  "clear_done_confirm": {
+    "message": "完了したタスク {count} 件を削除してもよろしいですか？"
+  },
+  "delete_highlight_confirm": {
+    "message": "このハイライトを削除してもよろしいですか？"
+  },
+  "clear_all_highlights_confirm": {
+    "message": "すべてのハイライト {count} 件を削除してもよろしいですか？"
+  }
+}

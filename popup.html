@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-title">Linking</div>
+          <div class="brand-sub" data-i18n="brand_sub"></div>
+        </div>
+
+        <div class="sidebar-controls">
+          <select id="langSelect" class="select">
+            <option value="en">EN</option>
+            <option value="ko">KO</option>
+            <option value="ja">JA</option>
+            <option value="zh">ZH</option>
+            <option value="fr">FR</option>
+            <option value="ar">AR</option>
+          </select>
+
+          <button id="themeToggle" class="icon-btn" title="Theme">
+            <span class="icon">◐</span>
+          </button>
+        </div>
+
+        <div class="search">
+          <input id="globalSearch" class="input" data-i18n-placeholder="search_placeholder" />
+        </div>
+
+        <nav class="nav">
+          <button class="nav-item active" data-view="notes">
+            <span class="icon">⌘</span>
+            <span data-i18n="nav_notes"></span>
+          </button>
+          <button class="nav-item" data-view="tasks">
+            <span class="icon">✓</span>
+            <span data-i18n="nav_tasks"></span>
+          </button>
+          <button class="nav-item" data-view="highlights">
+            <span class="icon">✦</span>
+            <span data-i18n="nav_highlights"></span>
+          </button>
+          <button class="nav-item" data-view="readlater">
+            <span class="icon">🔖</span>
+            <span data-i18n="nav_readlater"></span>
+          </button>
+          <button class="nav-item" data-view="tools">
+            <span class="icon">⚙</span>
+            <span data-i18n="nav_tools"></span>
+          </button>
+          <button class="nav-item" data-view="settings">
+            <span class="icon">⚙️</span>
+            <span data-i18n="nav_settings"></span>
+          </button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="hint" data-i18n="hint_footer"></div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="topbar-title" id="viewTitle"></div>
+          <div class="topbar-actions" id="viewActions"></div>
+        </header>
+
+        <section class="view" id="view-notes">
+          <div class="split">
+            <div class="panel panel-list">
+              <div class="panel-header panel-header-buttons">
+                <button id="newPageBtn" class="btn primary" data-i18n="new_page"></button>
+                <button id="newFolderBtn" class="btn" data-i18n="new_folder"></button>
+              </div>
+              <div class="panel-search">
+                <input id="pageSearchInput" class="input" data-i18n-placeholder="page_search_placeholder" />
+                <select id="pageSearchMode" class="select" style="margin-top: 6px;">
+                  <option value="both" data-i18n="search_mode_both">제목+내용</option>
+                  <option value="title" data-i18n="search_mode_title">제목만</option>
+                  <option value="content" data-i18n="search_mode_content">내용만</option>
+                </select>
+              </div>
+              <ul id="pageList" class="list"></ul>
+              <div id="pagePagination" class="pagination" hidden></div>
+            </div>
+
+            <div class="panel panel-editor">
+              <input id="pageTitle" class="title-input" data-i18n-placeholder="page_title_placeholder" />
+              <textarea id="pageContent" class="editor" data-i18n-placeholder="page_content_placeholder"></textarea>
+              <div class="editor-footer">
+                <div class="muted" id="saveStatus"></div>
+                <button id="deletePageBtn" class="btn danger" data-i18n="delete_page"></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="view-tasks" hidden>
+          <div class="card">
+            <div class="row" style="display: flex; gap: 8px; margin-bottom: 8px;">
+              <input id="taskInput" class="input" data-i18n-placeholder="task_placeholder" style="flex: 1;" />
+              <button id="addTask" class="btn primary" data-i18n="add_task"></button>
+              <button id="newTaskFolderBtn" class="btn" data-i18n="new_folder" title="새 폴더">📁</button>
+            </div>
+            <div class="row row-space">
+              <div class="muted" id="taskStats"></div>
+            </div>
+            <ul id="taskList" class="list"></ul>
+            <div id="taskPagination" class="pagination" hidden></div>
+          </div>
+        </section>
+
+        <section class="view" id="view-highlights" hidden>
+          <div class="card">
+            <div class="row" style="display: flex; gap: 8px; margin-bottom: 8px;">
+              <input id="highlightSearch" class="input" data-i18n-placeholder="highlight_search_placeholder" style="flex: 1;" />
+              <button id="newHighlightFolderBtn" class="btn" data-i18n="new_folder" title="새 폴더">📁</button>
+              <button id="clearHighlights" class="btn danger" data-i18n="clear_all"></button>
+            </div>
+            <ul id="highlightList" class="list"></ul>
+            <div id="highlightPagination" class="pagination" hidden></div>
+          </div>
+        </section>
+        
+        <!-- 하이라이트 상세 정보 모달 (뷰 밖으로 이동) -->
+        <div id="highlightDetailModal" class="modal" hidden>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 id="highlightDetailTitle">하이라이트 상세</h3>
+                <button id="closeHighlightDetail" class="btn" style="margin-left: auto;">✕</button>
+              </div>
+              <div class="modal-body">
+                <div class="detail-row">
+                  <label class="detail-label">이름:</label>
+                  <div id="highlightDetailName" class="detail-value"></div>
+                </div>
+                <div class="detail-row">
+                  <label class="detail-label">설명:</label>
+                  <div id="highlightDetailDescription" class="detail-value"></div>
+                </div>
+                <div class="detail-row">
+                  <label class="detail-label">하이라이트 텍스트:</label>
+                  <div id="highlightDetailText" class="detail-value"></div>
+                </div>
+                <div class="detail-row">
+                  <label class="detail-label">링크:</label>
+                  <a id="highlightDetailLink" class="detail-link" href="#" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Read Later 상세 정보 모달 -->
+        <div id="readLaterDetailModal" class="modal" hidden>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 data-i18n="nav_readlater">나중에 보기</h3>
+                <button id="closeReadLaterDetail" class="btn" style="margin-left: auto;">✕</button>
+              </div>
+              <div class="modal-body">
+                <div class="detail-row">
+                  <label class="detail-label" data-i18n="page_title_placeholder">제목</label>
+                  <input id="readLaterDetailTitle" class="input" placeholder="" />
+                </div>
+                <div class="detail-row">
+                  <label class="detail-label">링크:</label>
+                  <a id="readLaterDetailLink" class="detail-link" href="#" target="_blank"></a>
+                </div>
+                <div class="row" style="margin-top: 12px; justify-content: flex-end;">
+                  <button id="saveReadLaterDetail" class="btn primary" data-i18n="status_saved">저장</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Read Later 이름 입력 모달 -->
+        <div id="readLaterNameModal" class="modal" hidden>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 data-i18n="add_readlater">나중에 보기에 추가</h3>
+                <button id="closeReadLaterNameModal" class="btn" style="margin-left: auto;">✕</button>
+              </div>
+              <div class="modal-body">
+                <div class="detail-row">
+                  <label class="detail-label" data-i18n="page_title_placeholder">제목</label>
+                  <input id="readLaterNameModalInput" class="input" placeholder="" />
+                </div>
+                <div class="row" style="margin-top: 12px; justify-content: flex-end;">
+                  <button id="cancelReadLaterName" class="btn">취소</button>
+                  <button id="saveReadLaterName" class="btn primary" data-i18n="status_saved">저장</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section class="view" id="view-readlater" hidden>
+          <div class="card">
+            <div style="display: flex; align-items: center; margin-bottom: 12px; gap: 8px;">
+              <h3 style="margin: 0; flex: 1;" data-i18n="nav_readlater">나중에 보기</h3>
+              <button id="newReadLaterFolderBtn" class="btn" data-i18n="new_folder" title="새 폴더">📁</button>
+              <button id="addReadLaterBtn" class="btn primary" style="width: 32px; height: 32px; padding: 0; font-size: 18px; flex-shrink: 0;">+</button>
+            </div>
+            <div id="readLaterInputForm" style="display: none; margin-bottom: 12px; padding: 12px; background: var(--hover); border-radius: 8px;">
+              <input id="readLaterNameInput" class="input" style="margin-bottom: 8px;" data-i18n-placeholder="page_title_placeholder" />
+              <input id="readLaterUrlInput" class="input mono" style="margin-bottom: 8px;" data-i18n-placeholder="url_input_placeholder" />
+              <div style="display: flex; gap: 8px;">
+                <button id="readLaterSaveBtn" class="btn primary" data-i18n="save_url">저장</button>
+                <button id="readLaterCancelBtn" class="btn" data-i18n="reset">취소</button>
+              </div>
+            </div>
+            <ul id="readLaterList" class="list"></ul>
+            <div id="readLaterPagination" class="pagination" hidden></div>
+          </div>
+        </section>
+
+        <section class="view" id="view-tools" hidden>
+          <div class="grid">
+            <div class="card">
+              <div class="card-title" data-i18n="clean_url"></div>
+              <input id="currentUrl" class="input mono" data-i18n-placeholder="url_input_placeholder" />
+              <div class="row" style="margin-top: 8px;">
+                <button class="btn" id="cleanUrlBtn" data-i18n="clean_url_button"></button>
+                <button class="btn" id="shortenUrl" data-i18n="shorten_url"></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title" data-i18n="ad_blocker"></div>
+              <button class="btn primary" id="removeAds"></button>
+              <div class="muted" style="font-size: 12px; margin-top: 8px;" id="adBlockerStatus"></div>
+            </div>
+
+            <div class="card">
+              <div class="card-title" data-i18n="pomodoro"></div>
+              <div class="timer">
+                <div class="timer-time" id="timerTime">25:00</div>
+                <div class="timer-sub muted" id="timerSub"></div>
+              </div>
+              <div class="row" style="margin-top: 8px; align-items: center; flex-wrap: wrap;">
+                <input type="number" id="timerHours" class="input" style="width: 60px; margin-right: 4px;" min="0" max="23" value="0" />
+                <span style="line-height: 32px; margin-right: 8px;" data-i18n="timer_hours"></span>
+                <input type="number" id="timerMinutes" class="input" style="width: 60px; margin-right: 4px;" min="0" max="59" value="25" />
+                <span style="line-height: 32px; margin-right: 8px;" data-i18n="timer_minutes"></span>
+                <input type="number" id="timerSeconds" class="input" style="width: 60px; margin-right: 8px;" min="0" max="59" value="0" />
+                <span style="line-height: 32px; margin-right: 8px;" data-i18n="timer_seconds"></span>
+              </div>
+              <div class="row" style="margin-top: 8px;">
+                <button class="btn primary" id="timerStartPause" data-i18n="start"></button>
+                <button class="btn" id="timerReset" data-i18n="reset"></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="view-search" hidden>
+          <div class="card">
+            <div class="card-title" data-i18n="search_results"></div>
+            <ul id="searchResults" class="list"></ul>
+          </div>
+        </section>
+
+        <section class="view" id="view-settings" hidden>
+          <div class="grid">
+            <div class="card">
+              <div class="card-title" data-i18n="storage_usage"></div>
+              <div id="storageUsageInfo" style="margin-bottom: 8px; font-size: 12px;"></div>
+              <div style="width: 100%; height: 8px; background: var(--bg-secondary, #f0f0f0); border-radius: 4px; overflow: hidden;">
+                <div id="storageUsageBar" style="height: 100%; background: var(--accent, #007bff); transition: width 0.3s; width: 0%;"></div>
+              </div>
+              <div class="muted" style="font-size: 11px; margin-top: 4px;" data-i18n="storage_limit"></div>
+            </div>
+            
+            <div class="card">
+              <div class="card-title" data-i18n="settings_shortcut"></div>
+              <div class="row" style="align-items: center; gap: 8px;">
+                <label class="muted" style="font-size: 12px;" data-i18n="shortcut_label"></label>
+                <input type="text" id="shortcutInput" class="input" readonly style="flex: 1; font-family: var(--mono);" />
+                <button class="btn" id="recordShortcut" data-i18n="record_shortcut"></button>
+              </div>
+              <div class="muted" style="font-size: 11px; margin-top: 4px;" data-i18n="shortcut_hint"></div>
+              <div id="shortcutStatus" class="muted" style="font-size: 11px; margin-top: 4px; color: var(--accent);" hidden></div>
+            </div>
+          </div>
+        </section>
+
+        <div id="toast" class="toast" hidden></div>
+      </main>
+    </div>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
+  

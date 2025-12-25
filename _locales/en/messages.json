@@ -1,0 +1,365 @@
+{
+  "read": {
+    "message": "Read"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "tasks": {
+    "message": "Tasks"
+  },
+  "links": {
+    "message": "Links"
+  },
+  "toggle_reader": {
+    "message": "Toggle Reader"
+  },
+  "highlight": {
+    "message": "Highlight Selection"
+  },
+  "linking_workspace": {
+    "message": "Linking Workspace"
+  },
+  "contextmenu_readlater": {
+    "message": "Read Later - Linking"
+  },
+  "add_task": {
+    "message": "Add Task"
+  },
+  "task_placeholder": {
+    "message": "New task"
+  },
+  "start_timer": {
+    "message": "Start Pomodoro"
+  },
+  "clean_copy": {
+    "message": "Clean & Copy URL"
+  },
+  "remove_ads": {
+    "message": "Remove Ads"
+  },
+  "ad_blocker": {
+    "message": "Ad Blocker"
+  },
+  "ad_blocker_desc": {
+    "message": "Removes ads and unnecessary elements from the page"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "brand_sub": {
+    "message": "A small notebook in your hands"
+  },
+  "search_placeholder": {
+    "message": "Search notes, tasks, highlights…"
+  },
+  "nav_notes": {
+    "message": "Notes"
+  },
+  "nav_tasks": {
+    "message": "Tasks"
+  },
+  "nav_highlights": {
+    "message": "Highlights"
+  },
+  "nav_readlater": {
+    "message": "Read Later"
+  },
+  "nav_tools": {
+    "message": "Tools"
+  },
+  "nav_settings": {
+    "message": "Settings"
+  },
+  "hint_footer": {
+    "message": "Tip: Use search to jump fast."
+  },
+  "new_page": {
+    "message": "New page"
+  },
+  "page_title_placeholder": {
+    "message": "Title"
+  },
+  "page_content_placeholder": {
+    "message": "Write something…"
+  },
+  "delete_page": {
+    "message": "Delete page"
+  },
+  "delete_page_confirm": {
+    "message": "Are you sure you want to delete this page?"
+  },
+  "clear_done_confirm": {
+    "message": "Are you sure you want to delete {count} completed task(s)?"
+  },
+  "delete_highlight_confirm": {
+    "message": "Are you sure you want to delete this highlight?"
+  },
+  "clear_all_highlights_confirm": {
+    "message": "Are you sure you want to delete all {count} highlight(s)?"
+  },
+  "toast_no_done_tasks": {
+    "message": "No completed tasks."
+  },
+  "toast_no_highlights": {
+    "message": "No highlights."
+  },
+  "delete_task_confirm": {
+    "message": "Are you sure you want to delete this task?"
+  },
+  "readlater_name_required": {
+    "message": "Please enter a name."
+  },
+  "readlater_url_required": {
+    "message": "Please enter a URL."
+  },
+  "readlater_invalid_url": {
+    "message": "Invalid URL."
+  },
+  "clear_done": {
+    "message": "Clear done"
+  },
+  "highlight_search_placeholder": {
+    "message": "Search highlights…"
+  },
+  "clear_all": {
+    "message": "Clear all"
+  },
+  "reader_tools": {
+    "message": "Reader"
+  },
+  "reader_font": {
+    "message": "Font"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "font_sans": {
+    "message": "Sans-serif"
+  },
+  "font_mono": {
+    "message": "Monospace"
+  },
+  "reader_hint": {
+    "message": "Select text on the page, then tap Highlight."
+  },
+  "clean_url": {
+    "message": "Clean URL"
+  },
+  "shorten_url": {
+    "message": "Shorten URL"
+  },
+  "save_page_as_note": {
+    "message": "Save page"
+  },
+  "add_readlater": {
+    "message": "Add to Read Later"
+  },
+  "pomodoro": {
+    "message": "Pomodoro"
+  },
+  "start": {
+    "message": "Start"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "search_results": {
+    "message": "Search results"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "open": {
+    "message": "Open"
+  },
+  "status_ready": {
+    "message": "Ready"
+  },
+  "status_focus": {
+    "message": "Focusing…"
+  },
+  "status_saving": {
+    "message": "Saving…"
+  },
+  "status_saved": {
+    "message": "Saved"
+  },
+  "toast_restricted": {
+    "message": "Not available on this page."
+  },
+  "toast_inject_failed": {
+    "message": "Can't run on this page."
+  },
+  "toast_new_page": {
+    "message": "New page created"
+  },
+  "toast_last_page": {
+    "message": "Can't delete the last page."
+  },
+  "toast_deleted": {
+    "message": "Deleted"
+  },
+  "toast_cleared_done": {
+    "message": "Cleared {count}"
+  },
+  "toast_cleared_all": {
+    "message": "Cleared all"
+  },
+  "toast_reader_toggled": {
+    "message": "Reader toggled"
+  },
+  "toast_highlight_sent": {
+    "message": "Highlight requested"
+  },
+  "toast_copy_restricted": {
+    "message": "Can't copy URL on this page."
+  },
+  "toast_copy_failed": {
+    "message": "Copy failed"
+  },
+  "toast_clean_copied": {
+    "message": "Clean URL copied"
+  },
+  "toast_save_page_restricted": {
+    "message": "Can't save this page."
+  },
+  "toast_page_info_failed": {
+    "message": "Couldn't read page info."
+  },
+  "toast_saved_as_note": {
+    "message": "Saved page to notes"
+  },
+  "toast_pomodoro_done": {
+    "message": "Pomodoro done!"
+  },
+  "toast_readlater_added": {
+    "message": "Added to Read Later"
+  },
+  "toast_short_url_copied": {
+    "message": "Short URL copied"
+  },
+  "toast_short_url_failed": {
+    "message": "Failed to shorten URL"
+  },
+  "settings_popup": {
+    "message": "Popup Settings"
+  },
+  "keep_popup_open": {
+    "message": "Open as Separate Window"
+  },
+  "keep_popup_open_desc": {
+    "message": "Open popup as a separate window so it won't close when clicking outside"
+  },
+  "settings_shortcut": {
+    "message": "Shortcut Settings"
+  },
+  "shortcut_label": {
+    "message": "Open Popup Shortcut"
+  },
+  "shortcut_hint": {
+    "message": "Click record button and press your desired key combination"
+  },
+  "record_shortcut": {
+    "message": "Record Shortcut"
+  },
+  "stop_recording": {
+    "message": "Stop Recording"
+  },
+  "shortcut_recording": {
+    "message": "Press key combination..."
+  },
+  "shortcut_saved": {
+    "message": "Shortcut saved"
+  },
+  "shortcut_needs_modifier": {
+    "message": "Please press with modifier key (Ctrl/Alt/Shift)"
+  },
+  "toast_setting_saved": {
+    "message": "Settings saved"
+  },
+  "toast_popup_keep_enabled": {
+    "message": "Popup will stay open when clicking outside"
+  },
+  "toast_popup_window_opened": {
+    "message": "Opened as separate window. Won't close when clicking outside"
+  },
+  "toast_shortcut_saved": {
+    "message": "Shortcut saved. Please configure in chrome://extensions/shortcuts"
+  },
+  "page_search_placeholder": {
+    "message": "Search pages..."
+  },
+  "search_mode_both": {
+    "message": "Title+Content"
+  },
+  "search_mode_title": {
+    "message": "Title only"
+  },
+  "search_mode_content": {
+    "message": "Content only"
+  },
+  "clean_url_button": {
+    "message": "Clean URL"
+  },
+  "save_url": {
+    "message": "Save"
+  },
+  "url_input_placeholder": {
+    "message": "Enter URL"
+  },
+  "ad_blocker_active": {
+    "message": "Global Ad Blocking Active"
+  },
+  "ad_blocker_inactive": {
+    "message": "Global Ad Blocking Inactive"
+  },
+  "set_timer": {
+    "message": "Set Time"
+  },
+  "timer_hours": {
+    "message": "h"
+  },
+  "timer_minutes": {
+    "message": "m"
+  },
+  "timer_seconds": {
+    "message": "s"
+  },
+  "pomodoro_time_up": {
+    "message": "The set time has ended"
+  },
+  "storage_usage": {
+    "message": "Storage Usage"
+  },
+  "storage_limit": {
+    "message": "Up to 10MB can be stored"
+  },
+  "new_folder": {
+    "message": "New Folder"
+  },
+  "folder_name": {
+    "message": "Folder Name"
+  },
+  "delete_folder": {
+    "message": "Delete Folder"
+  },
+  "delete_folder_confirm": {
+    "message": "Are you sure you want to delete this folder?"
+  },
+  "move_to_folder": {
+    "message": "Move to Folder"
+  },
+  "remove_from_folder": {
+    "message": "Remove from Folder"
+  },
+  "empty_folder": {
+    "message": "Empty Folder"
+  },
+  "items_in_folder": {
+    "message": "{count} items"
+  }
+}

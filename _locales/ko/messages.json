@@ -1,0 +1,368 @@
+{
+  "read": {
+    "message": "읽기"
+  },
+  "notes": {
+    "message": "노트"
+  },
+  "tasks": {
+    "message": "할 일"
+  },
+  "links": {
+    "message": "링크"
+  },
+  "toggle_reader": {
+    "message": "읽기 모드"
+  },
+  "highlight": {
+    "message": "하이라이트-Linking"
+  },
+  "linking_workspace": {
+    "message": "Linking Workspace"
+  },
+  "contextmenu_readlater": {
+    "message": "나중에 보기 - Linking"
+  },
+  "add_task": {
+    "message": "할 일 추가"
+  },
+  "task_placeholder": {
+    "message": "새 할 일"
+  },
+  "start_timer": {
+    "message": "타이머 시작"
+  },
+  "clean_copy": {
+    "message": "URL 정리 복사"
+  },
+  "remove_ads": {
+    "message": "광고 제거"
+  },
+  "ad_blocker": {
+    "message": "광고 차단기"
+  },
+  "ad_blocker_desc": {
+    "message": "페이지의 광고와 불필요한 요소를 제거합니다"
+  },
+  "language": {
+    "message": "언어"
+  },
+  "brand_sub": {
+    "message": "당신 손 안의 작은 메모장"
+  },
+  "search_placeholder": {
+    "message": "노트/할 일/하이라이트 검색…"
+  },
+  "nav_notes": {
+    "message": "메모"
+  },
+  "nav_tasks": {
+    "message": "할 일"
+  },
+  "nav_highlights": {
+    "message": "하이라이트"
+  },
+  "nav_readlater": {
+    "message": "나중에 보기"
+  },
+  "nav_tools": {
+    "message": "도구"
+  },
+  "nav_settings": {
+    "message": "설정"
+  },
+  "hint_footer": {
+    "message": "팁: 검색으로 빠르게 이동할 수 있어요."
+  },
+  "new_page": {
+    "message": "새 페이지"
+  },
+  "page_title_placeholder": {
+    "message": "제목"
+  },
+  "page_content_placeholder": {
+    "message": "내용을 입력하세요…"
+  },
+  "delete_page": {
+    "message": "페이지 삭제"
+  },
+  "delete_page_confirm": {
+    "message": "페이지를 삭제하시겠습니까?"
+  },
+  "clear_done_confirm": {
+    "message": "완료된 항목 {count}개를 삭제하시겠습니까?"
+  },
+  "delete_highlight_confirm": {
+    "message": "하이라이트를 삭제하시겠습니까?"
+  },
+  "clear_all_highlights_confirm": {
+    "message": "모든 하이라이트 {count}개를 삭제하시겠습니까?"
+  },
+  "toast_no_done_tasks": {
+    "message": "완료된 항목이 없습니다."
+  },
+  "toast_no_highlights": {
+    "message": "하이라이트가 없습니다."
+  },
+  "delete_task_confirm": {
+    "message": "할 일을 삭제하시겠습니까?"
+  },
+  "readlater_name_required": {
+    "message": "이름을 입력하세요."
+  },
+  "readlater_url_required": {
+    "message": "URL을 입력하세요."
+  },
+  "readlater_invalid_url": {
+    "message": "유효하지 않은 URL입니다."
+  },
+  "clear_done": {
+    "message": "완료 정리"
+  },
+  "highlight_search_placeholder": {
+    "message": "하이라이트 검색…"
+  },
+  "clear_all": {
+    "message": "전체 삭제"
+  },
+  "reader_tools": {
+    "message": "리더"
+  },
+  "reader_font": {
+    "message": "폰트"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "font_sans": {
+    "message": "Sans-serif"
+  },
+  "font_mono": {
+    "message": "Monospace"
+  },
+  "reader_hint": {
+    "message": "페이지에서 텍스트를 선택한 뒤 하이라이트를 눌러보세요."
+  },
+  "clean_url": {
+    "message": "정리된 URL"
+  },
+  "shorten_url": {
+    "message": "단축 URL"
+  },
+  "save_page_as_note": {
+    "message": "페이지 저장"
+  },
+  "add_readlater": {
+    "message": "나중에 보기에 추가"
+  },
+  "pomodoro": {
+    "message": "타이머"
+  },
+  "start": {
+    "message": "시작"
+  },
+  "pause": {
+    "message": "일시정지"
+  },
+  "reset": {
+    "message": "리셋"
+  },
+  "search_results": {
+    "message": "검색 결과"
+  },
+  "delete": {
+    "message": "삭제"
+  },
+  "open": {
+    "message": "열기"
+  },
+  "status_ready": {
+    "message": "준비됨"
+  },
+  "status_focus": {
+    "message": "집중 중…"
+  },
+  "status_saving": {
+    "message": "저장 중…"
+  },
+  "status_saved": {
+    "message": "저장"
+  },
+  "toast_restricted": {
+    "message": "이 페이지에서는 사용할 수 없어요."
+  },
+  "toast_inject_failed": {
+    "message": "이 페이지에서는 실행할 수 없어요."
+  },
+  "toast_new_page": {
+    "message": "새 페이지 생성"
+  },
+  "toast_last_page": {
+    "message": "마지막 페이지는 삭제할 수 없어요."
+  },
+  "toast_deleted": {
+    "message": "삭제됨"
+  },
+  "toast_cleared_done": {
+    "message": "{count}개 정리됨"
+  },
+  "toast_cleared_all": {
+    "message": "전체 삭제됨"
+  },
+  "toast_reader_toggled": {
+    "message": "읽기 모드 토글"
+  },
+  "toast_highlight_sent": {
+    "message": "선택 영역 하이라이트"
+  },
+  "toast_copy_restricted": {
+    "message": "이 페이지 URL은 복사할 수 없어요."
+  },
+  "toast_copy_failed": {
+    "message": "복사 실패"
+  },
+  "toast_clean_copied": {
+    "message": "정리된 URL 복사됨"
+  },
+  "toast_save_page_restricted": {
+    "message": "이 페이지는 저장할 수 없어요."
+  },
+  "toast_page_info_failed": {
+    "message": "페이지 정보를 가져오지 못했어요."
+  },
+  "toast_saved_as_note": {
+    "message": "페이지를 노트로 저장"
+  },
+  "toast_pomodoro_done": {
+    "message": "타이머 완료!"
+  },
+  "toast_readlater_added": {
+    "message": "나중에 다시 보기에 추가됨"
+  },
+  "toast_short_url_copied": {
+    "message": "단축 URL 복사됨"
+  },
+  "toast_short_url_failed": {
+    "message": "단축 URL 생성 실패"
+  },
+  "settings_popup": {
+    "message": "팝업 설정"
+  },
+  "keep_popup_open": {
+    "message": "별도 창으로 열기"
+  },
+  "keep_popup_open_desc": {
+    "message": "팝업을 별도 창으로 열어 외부 클릭 시에도 닫히지 않게 합니다"
+  },
+  "settings_shortcut": {
+    "message": "단축키 설정"
+  },
+  "shortcut_label": {
+    "message": "팝업 열기 단축키"
+  },
+  "shortcut_hint": {
+    "message": "기록 버튼을 누르고 원하는 키 조합을 입력하세요"
+  },
+  "record_shortcut": {
+    "message": "단축키 기록"
+  },
+  "stop_recording": {
+    "message": "기록 중지"
+  },
+  "shortcut_recording": {
+    "message": "키 조합을 누르세요..."
+  },
+  "shortcut_saved": {
+    "message": "단축키 저장됨"
+  },
+  "shortcut_needs_modifier": {
+    "message": "수정 키(Ctrl/Alt/Shift)와 함께 눌러주세요"
+  },
+  "toast_setting_saved": {
+    "message": "설정 저장됨"
+  },
+  "toast_popup_keep_enabled": {
+    "message": "팝업이 외부 클릭 시에도 닫히지 않습니다"
+  },
+  "toast_popup_window_opened": {
+    "message": "별도 창으로 열렸습니다. 외부 클릭 시에도 닫히지 않습니다"
+  },
+  "toast_window_open_failed": {
+    "message": "별도 창 열기 실패"
+  },
+  "toast_shortcut_saved": {
+    "message": "단축키 저장됨. chrome://extensions/shortcuts 에서 설정하세요"
+  },
+  "page_search_placeholder": {
+    "message": "페이지 검색..."
+  },
+  "search_mode_both": {
+    "message": "제목+내용"
+  },
+  "search_mode_title": {
+    "message": "제목만"
+  },
+  "search_mode_content": {
+    "message": "내용만"
+  },
+  "clean_url_button": {
+    "message": "URL 정리하기"
+  },
+  "save_url": {
+    "message": "저장"
+  },
+  "url_input_placeholder": {
+    "message": "URL을 입력하세요"
+  },
+  "ad_blocker_active": {
+    "message": "전역 광고 제거 활성화중"
+  },
+  "ad_blocker_inactive": {
+    "message": "전역 광고 제거 비활성화중"
+  },
+  "set_timer": {
+    "message": "시간 설정"
+  },
+  "timer_hours": {
+    "message": "시"
+  },
+  "timer_minutes": {
+    "message": "분"
+  },
+  "timer_seconds": {
+    "message": "초"
+  },
+  "pomodoro_time_up": {
+    "message": "설정된 시간이 끝났습니다"
+  },
+  "storage_usage": {
+    "message": "저장 공간 사용량"
+  },
+  "storage_limit": {
+    "message": "최대 10MB까지 저장 가능합니다"
+  },
+  "new_folder": {
+    "message": "새 폴더"
+  },
+  "folder_name": {
+    "message": "폴더 이름"
+  },
+  "delete_folder": {
+    "message": "폴더 삭제"
+  },
+  "delete_folder_confirm": {
+    "message": "폴더를 삭제하시겠습니까?"
+  },
+  "move_to_folder": {
+    "message": "폴더로 이동"
+  },
+  "remove_from_folder": {
+    "message": "폴더에서 제거"
+  },
+  "empty_folder": {
+    "message": "빈 폴더"
+  },
+  "items_in_folder": {
+    "message": "{count}개 항목"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "read": {
+    "message": "Lire"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "tasks": {
+    "message": "Tâches"
+  },
+  "links": {
+    "message": "Liens"
+  },
+  "toggle_reader": {
+    "message": "Mode lecture"
+  },
+  "highlight": {
+    "message": "Surligner"
+  },
+  "linking_workspace": {
+    "message": "Linking Workspace"
+  },
+  "contextmenu_readlater": {
+    "message": "À lire plus tard - Linking"
+  },
+  "add_task": {
+    "message": "Ajouter une tâche"
+  },
+  "task_placeholder": {
+    "message": "Nouvelle tâche"
+  },
+  "start_timer": {
+    "message": "Démarrer Pomodoro"
+  },
+  "clean_copy": {
+    "message": "Nettoyer et copier l'URL"
+  },
+  "remove_ads": {
+    "message": "Supprimer les publicités"
+  },
+  "ad_blocker": {
+    "message": "Bloqueur de publicités"
+  },
+  "ad_blocker_desc": {
+    "message": "Supprime les publicités et les éléments inutiles de la page"
+  },
+  "language": {
+    "message": "Langue"
+  },
+  "brand_sub": {
+    "message": "Un petit carnet dans vos mains"
+  },
+  "search_placeholder": {
+    "message": "Rechercher notes / tâches / surlignages…"
+  },
+  "nav_notes": {
+    "message": "Notes"
+  },
+  "nav_tasks": {
+    "message": "Tâches"
+  },
+  "nav_highlights": {
+    "message": "Surlignages"
+  },
+  "nav_readlater": {
+    "message": "À lire plus tard"
+  },
+  "nav_tools": {
+    "message": "Outils"
+  },
+  "hint_footer": {
+    "message": "Astuce : utilisez la recherche pour aller vite."
+  },
+  "new_page": {
+    "message": "Nouvelle page"
+  },
+  "page_title_placeholder": {
+    "message": "Titre"
+  },
+  "page_content_placeholder": {
+    "message": "Écrivez ici…"
+  },
+  "delete_page": {
+    "message": "Supprimer la page"
+  },
+  "clear_done": {
+    "message": "Nettoyer terminées"
+  },
+  "highlight_search_placeholder": {
+    "message": "Rechercher surlignages…"
+  },
+  "clear_all": {
+    "message": "Tout effacer"
+  },
+  "reader_tools": {
+    "message": "Lecteur"
+  },
+  "reader_font": {
+    "message": "Police"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "font_sans": {
+    "message": "Sans-serif"
+  },
+  "font_mono": {
+    "message": "Monospace"
+  },
+  "reader_hint": {
+    "message": "Sélectionnez du texte sur la page, puis cliquez sur Surligner."
+  },
+  "clean_url": {
+    "message": "URL nettoyée"
+  },
+  "shorten_url": {
+    "message": "Raccourcir URL"
+  },
+  "save_page_as_note": {
+    "message": "Enregistrer la page"
+  },
+  "add_readlater": {
+    "message": "Ajouter à À lire plus tard"
+  },
+  "pomodoro": {
+    "message": "Pomodoro"
+  },
+  "start": {
+    "message": "Démarrer"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "reset": {
+    "message": "Réinitialiser"
+  },
+  "search_results": {
+    "message": "Résultats de recherche"
+  },
+  "delete": {
+    "message": "Supprimer"
+  },
+  "open": {
+    "message": "Ouvrir"
+  },
+  "status_ready": {
+    "message": "Prêt"
+  },
+  "status_focus": {
+    "message": "Concentration…"
+  },
+  "status_saving": {
+    "message": "Enregistrement…"
+  },
+  "status_saved": {
+    "message": "Enregistré"
+  },
+  "toast_restricted": {
+    "message": "Indisponible sur cette page."
+  },
+  "toast_inject_failed": {
+    "message": "Impossible d’exécuter sur cette page."
+  },
+  "toast_new_page": {
+    "message": "Page créée"
+  },
+  "toast_last_page": {
+    "message": "Impossible de supprimer la dernière page."
+  },
+  "toast_deleted": {
+    "message": "Supprimé"
+  },
+  "toast_cleared_done": {
+    "message": "Nettoyé : {count}"
+  },
+  "toast_cleared_all": {
+    "message": "Tout effacé"
+  },
+  "toast_reader_toggled": {
+    "message": "Mode lecture basculé"
+  },
+  "toast_highlight_sent": {
+    "message": "Surlignage demandé"
+  },
+  "toast_copy_restricted": {
+    "message": "Impossible de copier l’URL sur cette page."
+  },
+  "toast_copy_failed": {
+    "message": "Copie échouée"
+  },
+  "toast_clean_copied": {
+    "message": "URL nettoyée copiée"
+  },
+  "toast_save_page_restricted": {
+    "message": "Impossible d’enregistrer cette page."
+  },
+  "toast_page_info_failed": {
+    "message": "Impossible de lire les infos de la page."
+  },
+  "toast_saved_as_note": {
+    "message": "Page enregistrée dans les notes"
+  },
+  "toast_pomodoro_done": {
+    "message": "Pomodoro terminé !"
+  },
+  "toast_readlater_added": {
+    "message": "Ajouté à À lire plus tard"
+  },
+  "toast_short_url_copied": {
+    "message": "URL raccourcie copiée"
+  },
+  "toast_short_url_failed": {
+    "message": "Échec du raccourcissement d'URL"
+  },
+  "clean_url_button": {
+    "message": "Nettoyer l'URL"
+  },
+  "save_url": {
+    "message": "Enregistrer"
+  },
+  "url_input_placeholder": {
+    "message": "Entrez l'URL"
+  },
+  "ad_blocker_active": {
+    "message": "Blocage publicitaire global actif"
+  },
+  "ad_blocker_inactive": {
+    "message": "Blocage publicitaire global inactif"
+  },
+  "set_timer": {
+    "message": "Définir l'heure"
+  },
+  "timer_hours": {
+    "message": "h"
+  },
+  "timer_minutes": {
+    "message": "min"
+  },
+  "timer_seconds": {
+    "message": "s"
+  },
+  "pomodoro_time_up": {
+    "message": "Le temps défini est écoulé"
+  },
+  "storage_usage": {
+    "message": "Utilisation du stockage"
+  },
+  "storage_limit": {
+    "message": "Jusqu'à 10 Mo peuvent être stockés"
+  },
+  "delete_folder": {
+    "message": "Supprimer le dossier"
+  },
+  "delete_folder_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer ce dossier ?"
+  },
+  "delete_page_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer cette page ?"
+  },
+  "clear_done_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer {count} tâche(s) terminée(s) ?"
+  },
+  "delete_highlight_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer ce surlignage ?"
+  },
+  "clear_all_highlights_confirm": {
+    "message": "Êtes-vous sûr de vouloir supprimer tous les {count} surlignage(s) ?"
+  }
+}

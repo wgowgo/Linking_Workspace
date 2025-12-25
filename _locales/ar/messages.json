@@ -1,0 +1,269 @@
+{
+  "read": {
+    "message": "قراءة"
+  },
+  "notes": {
+    "message": "ملاحظات"
+  },
+  "tasks": {
+    "message": "مهام"
+  },
+  "links": {
+    "message": "روابط"
+  },
+  "toggle_reader": {
+    "message": "وضع القراءة"
+  },
+  "highlight": {
+    "message": "تمييز النص"
+  },
+  "linking_workspace": {
+    "message": "Linking Workspace"
+  },
+  "contextmenu_readlater": {
+    "message": "قراءة لاحقًا - Linking"
+  },
+  "add_task": {
+    "message": "إضافة مهمة"
+  },
+  "task_placeholder": {
+    "message": "مهمة جديدة"
+  },
+  "start_timer": {
+    "message": "بدء بومودورو"
+  },
+  "clean_copy": {
+    "message": "تنظيف ونسخ الرابط"
+  },
+  "remove_ads": {
+    "message": "إزالة الإعلانات"
+  },
+  "ad_blocker": {
+    "message": "مانع الإعلانات"
+  },
+  "ad_blocker_desc": {
+    "message": "يزيل الإعلانات والعناصر غير الضرورية من الصفحة"
+  },
+  "language": {
+    "message": "اللغة"
+  },
+  "brand_sub": {
+    "message": "مفكرة صغيرة بين يديك"
+  },
+  "search_placeholder": {
+    "message": "ابحث في الملاحظات/المهام/التمييز…"
+  },
+  "nav_notes": {
+    "message": "مذكرات"
+  },
+  "nav_tasks": {
+    "message": "مهام"
+  },
+  "nav_highlights": {
+    "message": "تمييز"
+  },
+  "nav_readlater": {
+    "message": "قراءة لاحقًا"
+  },
+  "nav_tools": {
+    "message": "أدوات"
+  },
+  "hint_footer": {
+    "message": "نصيحة: استخدم البحث للانتقال بسرعة."
+  },
+  "new_page": {
+    "message": "صفحة جديدة"
+  },
+  "page_title_placeholder": {
+    "message": "العنوان"
+  },
+  "page_content_placeholder": {
+    "message": "اكتب شيئًا…"
+  },
+  "delete_page": {
+    "message": "حذف الصفحة"
+  },
+  "clear_done": {
+    "message": "مسح المنجز"
+  },
+  "highlight_search_placeholder": {
+    "message": "ابحث في التمييز…"
+  },
+  "clear_all": {
+    "message": "مسح الكل"
+  },
+  "reader_tools": {
+    "message": "قارئ"
+  },
+  "reader_font": {
+    "message": "الخط"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "font_sans": {
+    "message": "Sans-serif"
+  },
+  "font_mono": {
+    "message": "Monospace"
+  },
+  "reader_hint": {
+    "message": "حدد نصًا في الصفحة ثم اضغط تمييز."
+  },
+  "clean_url": {
+    "message": "الرابط المنظّف"
+  },
+  "shorten_url": {
+    "message": "تقصير الرابط"
+  },
+  "save_page_as_note": {
+    "message": "حفظ الصفحة"
+  },
+  "add_readlater": {
+    "message": "إضافة إلى قراءة لاحقًا"
+  },
+  "pomodoro": {
+    "message": "بومودورو"
+  },
+  "start": {
+    "message": "بدء"
+  },
+  "pause": {
+    "message": "إيقاف مؤقت"
+  },
+  "reset": {
+    "message": "إعادة ضبط"
+  },
+  "search_results": {
+    "message": "نتائج البحث"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "open": {
+    "message": "فتح"
+  },
+  "status_ready": {
+    "message": "جاهز"
+  },
+  "status_focus": {
+    "message": "تركيز…"
+  },
+  "status_saving": {
+    "message": "جارٍ الحفظ…"
+  },
+  "status_saved": {
+    "message": "تم الحفظ"
+  },
+  "toast_restricted": {
+    "message": "غير متاح في هذه الصفحة."
+  },
+  "toast_inject_failed": {
+    "message": "لا يمكن التشغيل على هذه الصفحة."
+  },
+  "toast_new_page": {
+    "message": "تم إنشاء صفحة جديدة"
+  },
+  "toast_last_page": {
+    "message": "لا يمكن حذف آخر صفحة."
+  },
+  "toast_deleted": {
+    "message": "تم الحذف"
+  },
+  "toast_cleared_done": {
+    "message": "تم المسح: {count}"
+  },
+  "toast_cleared_all": {
+    "message": "تم مسح الكل"
+  },
+  "toast_reader_toggled": {
+    "message": "تم تبديل وضع القراءة"
+  },
+  "toast_highlight_sent": {
+    "message": "تم طلب التمييز"
+  },
+  "toast_copy_restricted": {
+    "message": "لا يمكن نسخ الرابط في هذه الصفحة."
+  },
+  "toast_copy_failed": {
+    "message": "فشل النسخ"
+  },
+  "toast_clean_copied": {
+    "message": "تم نسخ الرابط المنظّف"
+  },
+  "toast_save_page_restricted": {
+    "message": "لا يمكن حفظ هذه الصفحة."
+  },
+  "toast_page_info_failed": {
+    "message": "تعذر قراءة معلومات الصفحة."
+  },
+  "toast_saved_as_note": {
+    "message": "تم حفظ الصفحة في الملاحظات"
+  },
+  "toast_pomodoro_done": {
+    "message": "اكتمل بومودورو!"
+  },
+  "toast_readlater_added": {
+    "message": "تمت الإضافة إلى قراءة لاحقًا"
+  },
+  "toast_short_url_copied": {
+    "message": "تم نسخ الرابط المختصر"
+  },
+  "toast_short_url_failed": {
+    "message": "فشل تقصير الرابط"
+  },
+  "clean_url_button": {
+    "message": "تنظيف الرابط"
+  },
+  "save_url": {
+    "message": "حفظ"
+  },
+  "url_input_placeholder": {
+    "message": "أدخل الرابط"
+  },
+  "ad_blocker_active": {
+    "message": "حظر الإعلانات العالمي نشط"
+  },
+  "ad_blocker_inactive": {
+    "message": "حظر الإعلانات العالمي غير نشط"
+  },
+  "set_timer": {
+    "message": "تعيين الوقت"
+  },
+  "timer_hours": {
+    "message": "ساعة"
+  },
+  "timer_minutes": {
+    "message": "دقيقة"
+  },
+  "timer_seconds": {
+    "message": "ثانية"
+  },
+  "pomodoro_time_up": {
+    "message": "انتهى الوقت المحدد"
+  },
+  "storage_usage": {
+    "message": "استخدام التخزين"
+  },
+  "storage_limit": {
+    "message": "يمكن تخزين ما يصل إلى 10 ميجابايت"
+  },
+  "delete_folder": {
+    "message": "حذف المجلد"
+  },
+  "delete_folder_confirm": {
+    "message": "هل أنت متأكد أنك تريد حذف هذا المجلد؟"
+  },
+  "delete_page_confirm": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه الصفحة؟"
+  },
+  "clear_done_confirm": {
+    "message": "هل أنت متأكد أنك تريد حذف {count} مهمة مكتملة؟"
+  },
+  "delete_highlight_confirm": {
+    "message": "هل أنت متأكد أنك تريد حذف هذا التمييز؟"
+  },
+  "clear_all_highlights_confirm": {
+    "message": "هل أنت متأكد أنك تريد حذف جميع {count} التمييزات؟"
+  }
+}
