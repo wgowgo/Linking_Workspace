@@ -284,17 +284,3 @@ Linking-Workspace/
 **Current Version / 현재 버전**: 1.1.0
 
 ---
-
-# 기여하기 · Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-기여를 환영합니다! Pull Request를 자유롭게 제출해주세요.
-
----
-
-# 라이선스 · License
-
-This project is open source and available under the MIT License.
-
-이 프로젝트는 오픈 소스이며 MIT 라이선스 하에 제공됩니다.
